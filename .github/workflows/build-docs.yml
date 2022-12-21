@@ -34,7 +34,7 @@ jobs:
           dune-cache: true
 
       - name: Build docs
-        runs: make doc
+        run: make doc
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
