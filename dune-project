@@ -17,9 +17,9 @@
 
 (package
  (name chess)
- (synopsis "An OCaml chess engine.")
- (description "An OCaml chess engine.")
- (depends ocaml dune)
+ (synopsis "An OCaml chess engine")
+ (description "An OCaml chess engine")
+ (depends ocaml dune odoc)
  (tags
   ("chess")))
 
