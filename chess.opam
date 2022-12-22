@@ -7,12 +7,13 @@ authors: ["Clay Goodling"]
 license: "MIT"
 tags: ["chess"]
 homepage: "https://github.com/Clay-Goodling/Chess"
-doc: "https://goodling.dev/Chess"
+doc: "https:goodling.dev/Chess"
 bug-reports: "https://github.com/Clay-Goodling/Chess/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.6"}
   "odoc"
+  "ANSITerminal"
 ]
 build: [
   ["dune" "subst"] {dev}

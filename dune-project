@@ -13,13 +13,13 @@
 
 (license MIT)
 
-(documentation https://url/to/documentation)
+(documentation https:goodling.dev/Chess)
 
 (package
  (name chess)
  (synopsis "An OCaml chess engine")
  (description "An OCaml chess engine")
- (depends ocaml dune odoc)
+ (depends ocaml dune odoc ANSITerminal)
  (tags
   ("chess")))
 

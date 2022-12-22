@@ -1,7 +1,7 @@
-open Chess.Board
+open Chess.Game
 
 let main () =
-  let b = new_board in
-  print_board b
+  let g = init_game in
+  print_board g
 
 let () = main ()
